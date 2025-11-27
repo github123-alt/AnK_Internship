@@ -1,0 +1,42 @@
+import torch
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Point Transformer v3
+from pointcept.models.point_transformer_v3 import PointTransformerV3
+def visualize_points(points):
+    points = points.cpu().numpy()
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection="3d")
+    ax.scatter(points[:, 0], points[:, 1], points[:, 2], s=3)
+    plt.show()
+
+
+def main():
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print("Using device:", device)
+
+    # Initialize model
+    model = PointTransformerV3(enable_flash=False).to(device)
+    model.eval()
+
+    # Create fake point cloud
+    num_points = 4096
+    xyz = torch.rand(1, num_points, 3).to(device)
+    features = torch.rand(1, num_points, 6).to(device)
+
+    print("Input point cloud:", xyz.shape)
+    print("Input features:", features.shape)
+
+    # Forward pass
+    with torch.no_grad():
+        output = model(xyz, features)
+
+    print("Model output:", output.shape)
+
+    # Optional: visualize points
+    visualize_points(xyz[0])
+
+
+if __name__ == "__main__":
+    main()
