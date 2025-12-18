@@ -10,3 +10,7 @@ https://docs.google.com/presentation/d/1vkXU9g4B597V0SSO3rUtsXHJxgsO1FZA/edit?us
 ## Transformers Presentation
 
 https://docs.google.com/presentation/d/1fd7k7c-bwXymsgLAdEc-9clLv2jsZ3rk/edit?usp=sharing&ouid=116135711706069602979&rtpof=true&sd=true
+
+## Week_1 presentation
+
+https://docs.google.com/presentation/d/1V9vvJKTUMhqffX8LkPcIdYICxGy90VKo/edit?usp=sharing&ouid=116135711706069602979&rtpof=true&sd=true
