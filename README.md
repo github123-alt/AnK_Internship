@@ -14,3 +14,7 @@ https://docs.google.com/presentation/d/1fd7k7c-bwXymsgLAdEc-9clLv2jsZ3rk/edit?us
 ## Week_1 presentation
 
 https://docs.google.com/presentation/d/1V9vvJKTUMhqffX8LkPcIdYICxGy90VKo/edit?usp=sharing&ouid=116135711706069602979&rtpof=true&sd=true
+
+## Final Presentation at College
+
+https://docs.google.com/presentation/d/1XaoR85eQGhzA4yurlLOl0sSebJ7Z6l_3u5BfDc2xlLE/edit?usp=sharing
